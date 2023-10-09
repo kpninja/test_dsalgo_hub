@@ -18,7 +18,7 @@ import factory.DriverFactory;
 
 public class ExcelElements {
 	public static WebDriver driver = DriverFactory.getDriver();;
-	String Excelpath = "C:\\Users\\myhome\\eclipse-workspace\\Ds-algo\\src\\test\\resources\\exceldata\\xldata.xlsx";
+	String Excelpath = "C:\\Users\\myhome\\git\\repository_dsalgo\\Ds-algo\\src\\test\\resources\\exceldata\\xldata.xlsx";
 	String code;
 	String result;
 	public void waitForElement(WebElement element) {

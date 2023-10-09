@@ -14,7 +14,7 @@ public class LoginDataRead {
 	@DataProvider(name="Credential Supplier")
 	public Object[][] dataSupplier() throws IOException
 	{
-		File xlFile=new File("C:\\Users\\myhome\\eclipse-workspace\\Ds-algo\\src\\test\\resources\\exceldata\\xldata.xlsx");
+		File xlFile=new File("C:\\Users\\myhome\\git\\repository_dsalgo\\Ds-algo\\src\\test\\resources\\exceldata\\xldata.xlsx");
 		FileInputStream fis=new FileInputStream(xlFile);
 		XSSFWorkbook workbook=new XSSFWorkbook(fis);
 		XSSFSheet sheet = workbook.getSheet("loginData");

@@ -4,7 +4,7 @@ package runner;
 	import io.cucumber.testng.CucumberOptions;
 
 	@CucumberOptions(
-			features="C:\\Users\\myhome\\eclipse-workspace\\Ds-algo\\src\\test\\java\\features\\Test04_ds_DataStructure.feature",
+			features="C:\\Users\\myhome\\git\\repository_dsalgo\\Ds-algo\\src\\test\\java\\runner\\TestngTestRunner.java",
 			glue={"dsStepDefinitions","hooks"},
 			tags="@all",
 			plugin= {"pretty",

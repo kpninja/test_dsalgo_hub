@@ -6,7 +6,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class DriverFactory {
-	static WebDriver driver=null;
+	static WebDriver driver;
 
 	public static WebDriver getDriver() {
 		return driver;

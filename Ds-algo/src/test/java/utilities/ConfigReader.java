@@ -10,7 +10,7 @@ public class ConfigReader {
 public static Properties intializeProperties() 
 {
 	Properties properties=new Properties();
-	File propFile=new File("C:\\Users\\myhome\\eclipse-workspace\\Ds-algo\\src\\test\\resources\\Resources\\config.properties");
+	File propFile=new File("C:\\Users\\myhome\\git\\repository_dsalgo\\Ds-algo\\src\\test\\resources\\Resources\\config.properties");
 	FileInputStream fileInputStream;
 	try {
 		fileInputStream = new FileInputStream(propFile);
